@@ -13,6 +13,9 @@
 		EE5559BD1A65830F00A11A03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5559BC1A65830F00A11A03 /* Images.xcassets */; };
 		EE5559C01A65830F00A11A03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5559BE1A65830F00A11A03 /* LaunchScreen.xib */; };
 		EE5559CC1A65831000A11A03 /* CircleProgressViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5559CB1A65831000A11A03 /* CircleProgressViewSampleTests.swift */; };
+		EE5559D61A65831F00A11A03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5559D51A65831F00A11A03 /* QuartzCore.framework */; };
+		EE5559D81A65832700A11A03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5559D71A65832700A11A03 /* CoreGraphics.framework */; };
+		EE5559DA1A65835000A11A03 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5559D91A65835000A11A03 /* CircleProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		EE5559C51A65831000A11A03 /* CircleProgressViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5559CA1A65831000A11A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5559CB1A65831000A11A03 /* CircleProgressViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressViewSampleTests.swift; sourceTree = "<group>"; };
+		EE5559D51A65831F00A11A03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE5559D71A65832700A11A03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE5559D91A65835000A11A03 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5559D81A65832700A11A03 /* CoreGraphics.framework in Frameworks */,
+				EE5559D61A65831F00A11A03 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +67,8 @@
 		EE5559A71A65830F00A11A03 = {
 			isa = PBXGroup;
 			children = (
+				EE5559D71A65832700A11A03 /* CoreGraphics.framework */,
+				EE5559D51A65831F00A11A03 /* QuartzCore.framework */,
 				EE5559B21A65830F00A11A03 /* CircleProgressViewSample */,
 				EE5559C81A65831000A11A03 /* CircleProgressViewSampleTests */,
 				EE5559B11A65830F00A11A03 /* Products */,
@@ -77,6 +87,7 @@
 		EE5559B21A65830F00A11A03 /* CircleProgressViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				EE5559D91A65835000A11A03 /* CircleProgressView.swift */,
 				EE5559B51A65830F00A11A03 /* AppDelegate.swift */,
 				EE5559B71A65830F00A11A03 /* ViewController.swift */,
 				EE5559B91A65830F00A11A03 /* Main.storyboard */,
@@ -214,6 +225,7 @@
 			files = (
 				EE5559B81A65830F00A11A03 /* ViewController.swift in Sources */,
 				EE5559B61A65830F00A11A03 /* AppDelegate.swift in Sources */,
+				EE5559DA1A65835000A11A03 /* CircleProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
